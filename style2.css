@@ -112,7 +112,7 @@ header{
 }
 
 .fondo .contenedor-form.login{
-    transition: transform .17s ease;
+    transition:  .17s ease;
     transform: translateX(0);
 }
 
@@ -148,6 +148,10 @@ header{
     color: white;
 }
 
+.fondo .icono-cerrar:hover{
+    background: white;
+    color: #090f1d;
+}
 .contenedor-form h2{
     font-size: 2em;
     color: white;
@@ -233,6 +237,10 @@ header{
     font-weight: bold;
     background-color: black;
     color: white;
+}
+.btn:hover{
+    background: white;
+    color: #000;
 }
 .registrar{
     font-size: .9em;
